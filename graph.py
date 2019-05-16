@@ -66,7 +66,7 @@ for a in range(1,3):
             for d in [5,10,15,20,25]:
                 x.append(d)
                 y1.append(avg_scores[(d,a,b,c)])
-                y3.append(avg_scores2[(d,a,b,c)]-0.75)
+                y3.append(avg_scores2[(d,a,b,c)])
             y2=[2.5,7.5,13,16.5,17.5]
             z=2
             if c==0.85:
